@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
-import { Link } from "@/view-transition";
+import { Link } from "next-simple-view-transition";
 import { CARDS } from "@/constants/cards";
 
 const Page = ({ params }: { params: { id: string } }) => {
