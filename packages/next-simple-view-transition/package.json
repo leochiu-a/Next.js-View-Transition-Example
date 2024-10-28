@@ -1,6 +1,6 @@
 {
   "name": "next-simple-view-transition",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple view transition package for Next.js",
   "author": "Leo Chiu",
   "main": "dist/index.js",
