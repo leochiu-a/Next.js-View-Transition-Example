@@ -13,7 +13,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^0.451.0",
     "next": "14.2.15",
-    "next-simple-view-transition": "workspace:*",
+    "next-simple-view-transition": "^0.0.3",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.5.3",
