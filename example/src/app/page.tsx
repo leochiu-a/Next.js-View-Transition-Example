@@ -1,4 +1,4 @@
-import { Link } from "@/view-transition";
+import { Link } from "next-simple-view-transition";
 import {
   Card,
   CardContent,

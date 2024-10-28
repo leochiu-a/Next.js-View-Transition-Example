@@ -1,0 +1,30 @@
+{
+  "name": "next-simple-view-transition",
+  "version": "0.0.1",
+  "description": "A simple view transition package for Next.js",
+  "author": "Leo Chiu",
+  "main": "dist/index.js",
+  "type": "module",
+  "keywords": [
+    "Next.js",
+    "View Transition",
+    "MPA View Transition",
+    "app router"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "next": "14.2.15",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}

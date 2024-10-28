@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { ViewTransitions } from "@/view-transition";
+import { ViewTransitions } from "next-simple-view-transition";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
