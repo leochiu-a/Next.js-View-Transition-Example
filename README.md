@@ -22,7 +22,36 @@ useEffect(() => {
 
 # Getting Started
 
+## Installation
+
 ```bash
-pnpm install
-pnpm dev
+pnpm i next-simple-view-transition
+```
+
+## Usage
+
+In `layout.tsx` add `ViewTransitions`.
+
+```typescript
+import { ViewTransitions } from "next-simple-view-transition";
+
+export default function Layout({ children }: PropsWithChildren) {
+  return (
+    <ViewTransitions>{children}</ViewTransitions>
+  );
+}
+```
+
+Then in the page you want to transition from, add the `Link` component from the package.
+
+```typescript
+import { Link } from "next-simple-view-transition";
+
+export default function Page() {
+  return (
+    <Link href="/">
+      <a>Go to home</a>
+    </Link>
+  );
+}
 ```
